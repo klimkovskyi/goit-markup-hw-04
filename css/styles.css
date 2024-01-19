@@ -57,7 +57,7 @@ p {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   line-height: 1.17;
 }
 .logo-text {
@@ -78,7 +78,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Address */
@@ -94,7 +94,7 @@ p {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .header-address-link:hover,
 .nav-link:hover,
@@ -121,7 +121,7 @@ p {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   display: block;
@@ -141,7 +141,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -180,12 +180,12 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .preference-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Team section */
@@ -210,8 +210,14 @@ p {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-title {
-  text-align: center;
   margin-bottom: 72px;
+
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .team-img,
 .portfolio-img {
@@ -225,13 +231,13 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .team-paragraph {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Portfolio Section */
@@ -258,9 +264,8 @@ p {
   text-transform: capitalize;
   color: #2e2f42;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-subtitle {
@@ -270,12 +275,12 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .portfolio-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 /* Footer */
 .footer {
@@ -296,5 +301,5 @@ p {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
